@@ -7,8 +7,8 @@ const user = {
         roll: 50032
     }
 }
-console.log(user);
+//console.log(user);
 const stringified = JSON.stringify(user);
-console.log(stringified);
+//console.log(stringified);
 const pasrsing = JSON.parse(stringified);
-console.log(pasrsing.owner);
+console.log(pasrsing.owner.roll);
